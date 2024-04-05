@@ -1,0 +1,67 @@
+
+.logo{
+    width: 16.25rem;
+}
+
+nav a.nav-link {
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    color: var(--primary-darck) !important;
+    margin: 0 0.75rem;
+}
+
+
+
+.navbar-nav > li > a {
+    position: relative;
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+    color: var(--primary-color) !important;
+}
+
+
+@media (min-width: 670px) {
+
+    .navbar-nav > li > a.active::before, .navbar-nav > li > a:focus::before {
+        content: "{";
+            position: absolute;
+            left: -4px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            color: black;
+            font-size: 20px;
+            /* width: 64px; */
+            color: var(--primary-color);
+    }
+    
+    .navbar-nav > li > a.active::after, .navbar-nav > li > a:focus::after {
+        content: "}";
+            position: absolute;
+            right: -4px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            color: black;
+            font-size: 20px;
+            /* width: 64px; */
+            color: var(--primary-color);
+    }
+    
+}
+
+@media (min-width: 670px){
+    .logo{
+        width: 14.25rem;
+    }
+}
