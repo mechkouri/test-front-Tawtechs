@@ -1,0 +1,38 @@
+.testimony{
+    padding: 100px 0;
+}
+
+.wrapper{
+    width: 60%;
+    margin: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+.nametext {
+    color: black !important;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.tes-icon {
+    margin-top: 50px !important;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    margin: auto;
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px){
+    .testimony{
+        padding: 50px 0;
+    }
+    .wrapper{
+        width: 90%;
+    }
+}

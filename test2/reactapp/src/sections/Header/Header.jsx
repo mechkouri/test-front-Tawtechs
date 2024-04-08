@@ -1,10 +1,11 @@
-import logo from "../../assets/images/logo.png"
 import '../Header/Header.css'
+import logo from "../../assets/images/logo.png"
 import { FaBars } from "react-icons/fa";
+
+
 const Header = () => {
 	return (
     <>
-
 <header className="header" id="navbar-custom">
 	<nav className="navbar navbar-expand-lg bg-light">
 
@@ -33,14 +34,11 @@ const Header = () => {
 				<a className="nav-link" href="#">contact</a>
 				</li>
 			</ul>
-			
 			</div>
 		</div>
 	</nav>
 
 </header>
-
-
     </>
 )
 }

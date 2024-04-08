@@ -1,0 +1,21 @@
+
+.contact{
+    padding: 100px 0;
+}
+
+.contactform{
+    width: 32rem;
+    margin-top: 50px;
+}
+
+.formbtn {
+   background-color: var(--primary-color);
+   border: none;
+}
+
+@media (max-width: 760px) {
+    .contact{
+        padding: 50px 0;
+    }
+}
+

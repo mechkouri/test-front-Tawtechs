@@ -1,0 +1,57 @@
+
+.title {
+    position: relative;
+}
+
+.title::before{
+    content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 60px;
+        height: 1px;
+        background-color: black;
+}
+
+
+.title > h1{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+}
+
+.title > h1::before, .title > h1::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 35px;
+    scale: 1.2;
+    color: var(--primary-color);
+}
+
+.title > h1::before{
+    content: "{";
+        left: -30px;   
+}
+
+.title > h1::after{
+    content: "}";
+        right: -30px;
+}
+
+@media (max-width: 768px){
+    .title > h1{
+        font-size: 28px;
+    }
+    .title > h1::before, .title > h1::after{
+        font-size: 28px;
+    }
+    .title::before{
+        width: 40px;
+    }
+}

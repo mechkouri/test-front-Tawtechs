@@ -1,0 +1,38 @@
+.heroimg{
+    background-image: url('https://thinkyourself.com/wp-content/uploads/2023/04/AdobeStock_199916229-scaled.jpeg'); 
+    height: 490px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text{
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+
+h1.ml-4.hero-text::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: -25px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 27% 73% 77% 23% / 63% 67% 33% 37%;
+    background-color: #ffffff30;
+}
+
+@media (max-width: 768px){
+    .hero-text{
+        font-size: 28px;
+    }
+    h1.ml-4.hero-text::before{
+        width: 60px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,11 @@
+.calltoaction{
+    padding: 100px 0;
+    background-color: #F5F5F5;
+}
+
+@media (max-width: 760px) {
+    .calltoaction{
+        padding: 50px 0;
+    }
+}
+

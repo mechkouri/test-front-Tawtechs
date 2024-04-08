@@ -1,0 +1,16 @@
+
+.about-icon {
+    color: var(--primary-color);
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.about-services{
+    margin-top: 30px;
+}
+
+.about-services h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}

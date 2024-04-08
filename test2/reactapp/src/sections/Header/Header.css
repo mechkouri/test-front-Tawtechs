@@ -30,7 +30,7 @@ nav ul li {
 }
 
 
-@media (min-width: 670px) {
+@media (min-width: 768px) {
 
     .navbar-nav > li > a.active::before, .navbar-nav > li > a:focus::before {
         content: "{";
@@ -60,7 +60,7 @@ nav ul li {
     
 }
 
-@media (min-width: 670px){
+@media (min-width: 768px){
     .logo{
         width: 14.25rem;
     }
