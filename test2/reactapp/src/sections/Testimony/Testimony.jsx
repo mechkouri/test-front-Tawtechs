@@ -1,16 +1,12 @@
 import { FaQuoteLeft } from 'react-icons/fa';
-import Heading from '../../components/Heading/Heading';
-import '../Testimony/Testimony.css'
-import {
-    MDBCarousel,
-    MDBCarouselItem,
-    MDBCol,
-    MDBRow,
-    
-    } from "mdb-react-ui-kit";
+import './Testimony.css'
+import { MDBCarousel, MDBCarouselItem, MDBCol, MDBRow, } from "mdb-react-ui-kit";
+import { Heading } from '../../components';
+
 
 const Testimony = () => {
-  return (
+    
+return (
     <>
     <section className='testimony  ' id='testimony'>
     <Heading title="testimony"  />
@@ -55,7 +51,7 @@ const Testimony = () => {
     </div>
     </section>
     </>
-  )
+)
 }
 
 export default Testimony

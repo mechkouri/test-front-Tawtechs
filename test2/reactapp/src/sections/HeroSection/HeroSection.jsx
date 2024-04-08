@@ -1,5 +1,5 @@
 import { FaMouse } from 'react-icons/fa'
-import '../HeroSection/HeroSection.css'
+import './HeroSection.css'
 
 const HeroSection = () => {
     return (

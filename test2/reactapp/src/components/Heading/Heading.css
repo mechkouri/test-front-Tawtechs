@@ -46,12 +46,12 @@
 
 @media (max-width: 768px){
     .title > h1{
-        font-size: 28px;
+        font-size: 22px;
     }
     .title > h1::before, .title > h1::after{
-        font-size: 28px;
+        font-size: 22px;
     }
     .title::before{
-        width: 40px;
+        width: 30px;
     }
 }

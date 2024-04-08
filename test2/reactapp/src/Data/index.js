@@ -1,3 +1,9 @@
+import blog1 from '../assets/images/blog1.jpg';
+import blog2 from '../assets/images/blog2.jpg';
+import blog3 from '../assets/images/blog3.jpg';
+
+
+
 export const aboutservices = [
     {
         id: "0",
@@ -108,3 +114,25 @@ export const projectsData = [
       category: "VIDEO",
     },
   ];
+
+
+  export const blogs = [
+    {
+      id: 0,
+      img: blog1,
+      title: "How to Get Into Digital Marketing.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea beatae",
+    },
+    {
+      id: 1,
+      img: blog2,
+      title: "Business tool for your customer",
+      desc: "Exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+    },
+    {
+      id: 2,
+      img: blog3,
+      title: "The 12 Best Online UX Design Courses in 2024",
+      desc: "Exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+    },
+  ]

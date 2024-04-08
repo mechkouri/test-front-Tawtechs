@@ -1,6 +1,5 @@
-import Button from '../../components/Button/Button'
-import Heading from '../../components/Heading/Heading'
-import '../Calltoaction/Calltoaction.css'
+import { Button, Heading } from '../../components'
+import './Calltoaction.css'
 
 const Calltoaction = () => {
   return (

@@ -1,12 +1,12 @@
-import '../Contact/Contact.css'
-import Heading from './../../components/Heading/Heading';
+import { Heading } from '../../components'
+import './Contact.css'
 
 const Contact = () => {
     return (
     <section className='contact container' id='contact'>
         <Heading title="contact" />
         <div className=" d-flex justify-content-center align-items-center w-100">
-                    <form className='contactform'>
+                    <form className='contactform container'>
                 <div data-mdb-input-init className="form-outline mb-4">
                 <input type="text" id="form4Example1" className="form-control" placeholder='Name' />
                 </div>

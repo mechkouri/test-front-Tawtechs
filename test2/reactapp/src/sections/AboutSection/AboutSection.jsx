@@ -1,8 +1,7 @@
-import '../AboutSection/AboutSection.css'
+import './AboutSection.css'
 import aboutimg from '../../assets/images/aboutme.png'
-import Heading from '../../components/Heading/Heading'
-import AboutCard from '../../components/AboutCard/AboutCard'
 import { aboutservices } from '../../Data'
+import { AboutCard, Heading } from '../../components'
 
 
 

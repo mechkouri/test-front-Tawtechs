@@ -1,7 +1,6 @@
 import { services } from '../../Data'
-import Heading from '../../components/Heading/Heading'
-import Servicecard from '../../components/Servicecard/Servicecard'
-import '../Services/Services.css'
+import { Heading, Servicecard } from '../../components'
+import './Services.css'
 
 const Services = () => {
     let servicescard = services.map(service => <Servicecard key={service.id} icon={service.icon} title={service.title} description={service.description} /> )

@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Heading from '../../components/Heading/Heading'
-import '../Works/Works.css'
+import './Works.css'
 import { projectsData } from '../../Data';
+import { Heading } from '../../components';
 
 const Works = () => {
 
