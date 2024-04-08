@@ -1,0 +1,49 @@
+.work {
+    padding: 100px 0;
+}
+
+  
+  .my-6 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  
+  .py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+  /*** Project Portfolio ***/
+  #portfolio-flters li {
+    display: inline-block;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 2px solid transparent;
+    color: black;
+    margin-top: 50px;
+    padding: 8px 30px;
+    background-color: aliceblue;
+    border-radius: 2px;
+  }
+  
+  #portfolio-flters li:hover,
+  #portfolio-flters li.active {
+    color: white ;
+    background-color: var(--primary-color);
+  }
+
+  @media (max-width: 768px){
+    .work {
+        padding: 50px 0 0 0;
+    }
+    #portfolio-flters li {
+        margin-top: 10px;
+    }
+}
+  
+ 
+  
+ 
+
+  

@@ -20,18 +20,18 @@ const Header = () => {
 				<a className="nav-link active" aria-current="page" href="#">Home</a>
 				</li>
 				<li className="nav-item">
-				<a className="nav-link" href="#">about</a>
+				<a className="nav-link" href="#about">about</a>
 				</li>
 				<li className="nav-item">
-				<a className="nav-link" href="#">service</a>
+				<a className="nav-link" href="#services">service</a>
 				</li><li className="nav-item">
-				<a className="nav-link" href="#">works</a>
+				<a className="nav-link" href="#works">works</a>
 				</li><li className="nav-item">
-				<a className="nav-link" href="#">testimonial</a>
+				<a className="nav-link" href="#testimony">testimonial</a>
 				</li><li className="nav-item">
-				<a className="nav-link" href="#">blog</a>
+				<a className="nav-link" href="#blog">blog</a>
 				</li><li className="nav-item">
-				<a className="nav-link" href="#">contact</a>
+				<a className="nav-link" href="#contact">contact</a>
 				</li>
 			</ul>
 			</div>

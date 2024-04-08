@@ -4,7 +4,7 @@ import '../Calltoaction/Calltoaction.css'
 
 const Calltoaction = () => {
   return (
-    <section className='calltoaction'>
+    <section className='calltoaction' id='calltoaction'>
         <div className="container">
             <Heading title="i am available for freelancer" />
             <Button text="Hire me" />

@@ -9,7 +9,7 @@ import Button from '../../components/Button/Button';
 const Blog = () => {
   return (
 
-        <section className='blog container'>
+        <section className='blog container' id='blog'>
             <Heading title="blog" />
 
             <div className="row mt-n5">

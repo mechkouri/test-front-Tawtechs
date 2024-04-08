@@ -12,13 +12,13 @@ import {
 const Testimony = () => {
   return (
     <>
-    <section className='testimony container '>
-    <Heading title="testimony" />
-    <div className="box-shadow d-flex justify-content-center align-items-center tes-icon">
+    <section className='testimony  ' id='testimony'>
+    <Heading title="testimony"  />
+    <div className="container box-shadow d-flex justify-content-center align-items-center tes-icon">
         <FaQuoteLeft />
     </div>
     <div className="wrapper d-flex justify-content-center align-items-center">
-    <MDBRow className="py-5 text-center">
+    <MDBRow className="py-5 text-center container">
         <MDBCol md="12">
             <MDBCarousel showControls dark>
             

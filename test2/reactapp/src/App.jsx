@@ -9,6 +9,7 @@ import Header from './sections/Header/Header'
 import HeroSection from './sections/HeroSection/HeroSection'
 import Services from './sections/Services/Services'
 import Testimony from './sections/Testimony/Testimony'
+import Works from './sections/Works/Works'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <Services />
+      <Works />
       <Testimony />
       <Blog />
       <Calltoaction />

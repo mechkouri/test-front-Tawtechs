@@ -3,7 +3,7 @@ import Heading from './../../components/Heading/Heading';
 
 const Contact = () => {
     return (
-    <section className='contact container'>
+    <section className='contact container' id='contact'>
         <Heading title="contact" />
         <div className=" d-flex justify-content-center align-items-center w-100">
                     <form className='contactform'>
